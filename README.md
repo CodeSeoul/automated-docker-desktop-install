@@ -16,7 +16,6 @@ You can either follow the instructions below or the [instructions from the Docke
 4. Type in `wsl --install` and press enter.
 5. Close the Powershell window. This is running as Administrator, and we don't want that anymore.
 6. Type `powershell`. Press enter! We want to open it for our normal user.
-    ![search for powershell](images/windows-powershell-search.png)
 7. Copy and paste the following and press enter to download the Docker installer:
     ```powershell
    Invoke-WebRequest -Uri "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe" -Outfile "$HOME\Downloads\Docker Desktop Installer.exe" 
